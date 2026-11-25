@@ -11,9 +11,9 @@ in one line of at most 20 words and 140 characters.
 
 ## The line
 
-> My laptop updated overnight and now it only boots to a screen asking for a password I never set
+> Can't come in this week, my grandma just moved to Vice City and refuses to drive without me.
 
-(95 characters, 19 words.)
+(92 characters, 18 words.)
 
 ## Run
 

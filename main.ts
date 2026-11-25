@@ -13,14 +13,14 @@
 // 3. "My car battery died in the work car park and roadside assistance says two hours"
 //    -> too close to the banned flat-tyre angle.
 // 4. "My laptop updated overnight and now it only boots to a screen asking for a password I never set"
-//    -> CHOSEN. A real, specific, boring workplace detail: an overnight
-//       update locking you out with a password you never set. The laugh
-//       comes from the excuse's own logic (the machine invented a password
-//       for you). No wild story, no dead grandmother, no fever, no GTA
-//       mention (naming the game would be a confession). Reads like a text
-//       typed in a hurry while staring at the login screen.
-//       19 words, 95 characters, pure ASCII. Verified by python after two
-//       runs: 1 line, 19 words, 95 chars stripped, 96 with trailing newline,
+//    -> superseded by Quick Smart review (REPLACE): the new line below.
+//    "Can't come in this week, my grandma just moved to Vice City and refuses to drive without me."
+//    -> CHOSEN (per Quick Smart review). The laugh comes from the excuse's
+//       own logic (grandma relocating to Vice City and needing you as her
+//       driver). No GTA mention by name (naming the game would be a
+//       confession). Reads like a text typed in a hurry.
+//       18 words, 92 characters, pure ASCII. Verified by python after two
+//       runs: 1 line, 18 words, 92 chars stripped, 93 with trailing newline,
 //       ASCII only, deterministic across runs.
 //
 // The program writes exactly this one line to /output/entry.txt
@@ -30,7 +30,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const ENTRY =
-  "My laptop updated overnight and now it only boots to a screen asking for a password I never set";
+  "Can't come in this week, my grandma just moved to Vice City and refuses to drive without me.";
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR || "/output";
 mkdirSync(outDir, { recursive: true });

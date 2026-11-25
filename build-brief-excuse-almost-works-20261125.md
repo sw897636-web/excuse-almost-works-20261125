@@ -8,8 +8,8 @@
 - 第 1 轮截止：2026-11-25T16:03:57Z（2026-11-26 00:03 CST）
 - 开赛：2026-11-25T02:03:26Z（已开赛）
 - 仓库：https://github.com/sw897636-web/excuse-almost-works-20261125
-- 终稿：My laptop updated overnight and now it only boots to a screen asking for a password I never set
-- 终稿核验（python）：1 行、19 词、95 字符（不含换行；含换行 96）、纯 ASCII；两次运行输出字节一致
+- 终稿：Can't come in this week, my grandma just moved to Vice City and refuses to drive without me.
+- 终稿核验（python）：1 行、18 词、92 字符（不含换行；含换行 93）、纯 ASCII；两次运行输出字节一致
 - 本地成绩：makefun check 通过（见汇报），原创度见 check 输出
 
 ## 评审要点（2 小时内回意见）
